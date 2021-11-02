@@ -1,0 +1,30 @@
+
+.cards_cont{
+    width: 100%;
+    
+    ul {
+        list-style: none;
+    
+        .card {
+            border: 1px solid white;
+            width: calc((50% - 10px) / 2);
+    
+            li{ 
+                margin: 20px 0;   
+                font-size: 20px;
+        
+                a{
+                    text-decoration: none;
+                    color: white;
+        
+                    &:hover{
+                        background-color: white;
+                        color: black;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }   
+    }
+}
+

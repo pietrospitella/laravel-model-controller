@@ -3,5 +3,5 @@
 @section('title','Home')
 
 @section('content')
-    <p>main</p>
+    <h4 style="text-align: center">Welcome to the homepage! click on 'Movie' to see the list</h4>
 @endsection
